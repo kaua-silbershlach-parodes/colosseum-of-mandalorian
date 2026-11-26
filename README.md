@@ -15,7 +15,7 @@ Two entry points share the same corpus and the same models:
 
 The corpus holds fourteen hardening techniques, each a short card: default deny, per-request authorization, least privilege, contested network assumption, resource inventory, categorization by criticality, enforcement point coverage, compensating controls, bounded input handling, origin and host validation, monitor and assess loop, release authorization, fail-closed automation, and tailoring to what exists.
 
-The techniques live in `corpus.json`; for the database, `data/techniques_schema.sql` defines the `TECHNIQUES` table, which exports to `data/techniques.dmp` with Data Pump.
+The techniques live in `corpus.json`; for the database, `data/techniques.dmp` is the Data Pump export of the `TECHNIQUES` table (round-trip verified), defined by `data/techniques_schema.sql`.
 
 ## Usage
 
