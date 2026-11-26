@@ -7,8 +7,8 @@ CREATE TABLE techniques (
     id          VARCHAR2(16) PRIMARY KEY,
     title       VARCHAR2(200) NOT NULL,
     text        VARCHAR2(4000) NOT NULL,
-    minilm_vector VECTOR(384),
-    e5_vector     VECTOR(384)
+    minilm_vector VECTOR(384, FLOAT32),
+    e5_vector     VECTOR(384, FLOAT32)
 );
 
 -- After loading the rows and the in-database models:
