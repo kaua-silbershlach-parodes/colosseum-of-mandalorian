@@ -20,7 +20,7 @@ Think of the engine as a weapon aimed at a project: you fire a problem at it, an
 3. **Apply** — the top technique is applied only where it hardens code that already exists. Nothing is invented: no fake identities, no decorative panels.
 4. **Verify** — tests, hashes, and the release checklist prove the improvement before it ships.
 
-Today the magazine holds the techniques of **one book** — fourteen cards. The library behind it holds more than a thousand books. Each new book read page by page adds its cards to the same corpus, and every project the engine is aimed at gets stronger with each one.
+Today the magazine holds the techniques of **one book** — fourteen cards. The library behind it holds more than a thousand books, organized in twenty sectors (see `LIBRARY_SECTORS.md`). Each new book read page by page adds its cards to the same corpus, and every project the engine is aimed at gets stronger with each one.
 
 ## The techniques
 
