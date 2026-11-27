@@ -52,7 +52,7 @@ Fourteen hardening techniques, organized by what they do:
 - **Fail-Closed Automation** (`zt-13`) — scripts stop on the first failed check; a missing verification is a failure.
 - **Tailoring to What Exists** (`zt-14`) — apply knowledge only where it hardens what the project really contains.
 
-The techniques live in `corpus.json`; for the database, `data/techniques.dmp` is the Data Pump export of the `TECHNIQUES` table (round-trip verified), defined by `data/techniques_schema.sql`.
+The techniques live in `corpus.json`; for the database, `data/techniques.dmp` is the Data Pump export of the `TECHNIQUES` table with both vector columns populated (round-trip verified: 14 rows, 14/14 vector pairs), defined by `data/techniques_schema.sql`.
 
 ## Tested on Oracle AI Database 26ai
 
